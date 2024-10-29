@@ -1,0 +1,7 @@
+PySide6
+folium
+pymavlink
+opencv-python
+opencv-python-headless
+pyautogui
+pygetwindow

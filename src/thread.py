@@ -165,7 +165,7 @@ class MapThread(QThread):
             folium.Marker([self.home_lat, self.home_lon], tooltip='HOME', icon=folium.Icon(color='green')).add_to(folium_map)
 
         # Add custom icon for the current location
-        custom_icon_path = r'C:\Users\aefesekili\Desktop\Projects\kozmos-yer-istasyonu\ucak.png'  # Raw string kullanıldı
+        custom_icon_path = r'C:\Users\tahir\Documents\GUI-KOZMOS\Kozmos-GUI\assets\images\ucak.png'  # Raw string kullanıldı
         custom_icon = folium.CustomIcon(custom_icon_path, icon_size=(30, 30))  # Adjust the size as necessary
         folium.Marker([lat, lon], tooltip='Current Location', icon=custom_icon).add_to(folium_map)
 
